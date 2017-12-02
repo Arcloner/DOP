@@ -32,6 +32,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +44,16 @@
     <Compile Include="IPersonnelDepartmentService.cs" />
     <Compile Include="PersonnelDepartmentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DOP.Service.Data\DOP.Service.Data.csproj">
+      <Project>{4352cf0a-ae90-4577-85db-514c9605dbb4}</Project>
+      <Name>DOP.Service.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOP.Service.DTO\DOP.Service.DTO.csproj">
+      <Project>{8612fdf3-a4b6-41fd-90d5-10b24ff3d657}</Project>
+      <Name>DOP.Service.DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

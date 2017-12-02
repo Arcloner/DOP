@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Service="DOP.Service.Contracts.PersonnelDepartmentService"%>

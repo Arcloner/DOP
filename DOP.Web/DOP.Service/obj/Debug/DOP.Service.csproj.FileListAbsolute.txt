@@ -1,0 +1,12 @@
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\obj\Debug\DOP.Service.csprojResolveAssemblyReference.cache
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.dll.config
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\obj\Debug\DOP.Service.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\obj\Debug\DOP.Service.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.Contracts.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.DTO.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.Data.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.Contracts.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.DTO.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service\bin\DOP.Service.Data.pdb

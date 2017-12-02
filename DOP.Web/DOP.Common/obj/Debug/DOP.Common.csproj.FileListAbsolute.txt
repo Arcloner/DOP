@@ -1,0 +1,5 @@
+B:\VS_Projects\DOP\DOP.Web\DOP.Common\bin\Debug\DOP.Common.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Common\bin\Debug\DOP.Common.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Common\obj\Debug\DOP.Common.csprojResolveAssemblyReference.cache
+B:\VS_Projects\DOP\DOP.Web\DOP.Common\obj\Debug\DOP.Common.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Common\obj\Debug\DOP.Common.pdb

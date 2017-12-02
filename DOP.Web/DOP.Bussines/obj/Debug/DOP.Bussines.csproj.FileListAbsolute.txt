@@ -1,0 +1,5 @@
+B:\VS_Projects\DOP\DOP.Web\DOP.Bussines\bin\Debug\DOP.Bussines.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Bussines\bin\Debug\DOP.Bussines.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Bussines\obj\Debug\DOP.Bussines.csprojResolveAssemblyReference.cache
+B:\VS_Projects\DOP\DOP.Web\DOP.Bussines\obj\Debug\DOP.Bussines.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Bussines\obj\Debug\DOP.Bussines.pdb
