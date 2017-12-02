@@ -1,9 +1,5 @@
 ﻿using DOP.Bussines.Providers;
-using DOP.Common.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using DOP.Web.ViewModels;
 using System.Web.Mvc;
 
 namespace DOP.Web.Controllers
@@ -15,11 +11,27 @@ namespace DOP.Web.Controllers
         {
             this.provider = provider;
         }
-        // GET: Main
-        public ActionResult Index()
+        
+        public ActionResult StartPage(int? id)
         {
-            List<Department> dps = provider.GetAllDepartments();
-            return View();
+            if (id != null)
+            {
+                return View(new StartPageViewModel()
+                {
+                    Departments = provider.GetAllDepartments(),
+                    Personnel = provider.GetPersonnelByDepartmentId((int)id),
+                    SelectedDepartment = id
+                });
+            }
+            else
+            {
+                return View(new StartPageViewModel()
+                {
+                    Departments = provider.GetAllDepartments(),
+                    Personnel = provider.GetAllPersonnel(),
+                    SelectedDepartment = id
+                });
+            }
         }
     }
 }
