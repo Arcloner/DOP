@@ -1,13 +1,15 @@
-﻿using System;
+﻿using DOP.Common.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DOP.Bussines.Providers
 {
     public interface IDOPProvider
     {
-
+        List<Personnel> GetAllPersonnel();
+        List<Personnel> GetPersonnelByDepartmentId(int id);
+        List<Department> GetAllDepartments();
+        Department GetDepartmentByPersonnelId(int id);
+        Department GetDepartmentById(int id);
+        Personnel GetPersonnelById(int id);
     }
 }

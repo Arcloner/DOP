@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="04f6905b-5f8c-427e-8b44-b1e2dbd1d52a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63406/DOPService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DOPService.xsd" MetadataType="Schema" ID="13ac513a-8f95-43b6-a419-acc1998560dc" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DOPService1.xsd" MetadataType="Schema" ID="14003de7-6e9b-4a10-afd7-5aad76a12351" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DOPService.disco" MetadataType="Disco" ID="2b3cc730-3e3b-4593-b55e-e42aefbe323a" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?disco" />
+    <MetadataFile FileName="PersonnelDepartmentService.wsdl" MetadataType="Wsdl" ID="dfac3d46-52b7-4673-ab33-111cf69fa551" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?wsdl" />
+    <MetadataFile FileName="DOPService2.xsd" MetadataType="Schema" ID="2960cb23-85a2-4598-a6cc-6852a40d4857" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

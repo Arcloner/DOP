@@ -5,3 +5,16 @@ B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\DOP.Service.DTO.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\DOP.Service.DTO.pdb
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\obj\Debug\DOP.Service.Data.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\obj\Debug\DOP.Service.Data.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.Net4.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.Web.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\WebActivatorEx.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.xml
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.Net4.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.Web.pdb
+B:\VS_Projects\DOP\DOP.Web\DOP.Service.Data\bin\Debug\StructureMap.Web.xml

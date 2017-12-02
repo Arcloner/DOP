@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/DOP.Service.DTO" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/DOP.Service.DTO" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfPersonnelDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="PersonnelDto" nillable="true" type="tns:PersonnelDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPersonnelDto" nillable="true" type="tns:ArrayOfPersonnelDto" />
+  <xs:complexType name="PersonnelDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ContactId" type="xs:int" />
+      <xs:element minOccurs="0" name="DepartmentId" type="xs:int" />
+      <xs:element minOccurs="0" name="FamilyState" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MiddleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PersonnelId" type="xs:int" />
+      <xs:element minOccurs="0" name="Photo" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PersonnelDto" nillable="true" type="tns:PersonnelDto" />
+  <xs:complexType name="ArrayOfDepartmentDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="DepartmentDto" nillable="true" type="tns:DepartmentDto" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfDepartmentDto" nillable="true" type="tns:ArrayOfDepartmentDto" />
+  <xs:complexType name="DepartmentDto">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Adress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DepartmentId" type="xs:int" />
+      <xs:element minOccurs="0" name="Details" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PhoneNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DepartmentDto" nillable="true" type="tns:DepartmentDto" />
+</xs:schema>
