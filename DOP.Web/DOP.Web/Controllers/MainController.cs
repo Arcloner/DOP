@@ -1,4 +1,5 @@
 ﻿using DOP.Bussines.Providers;
+using DOP.Common.Models;
 using DOP.Web.ViewModels;
 using System.Web.Mvc;
 
@@ -32,6 +33,10 @@ namespace DOP.Web.Controllers
                     SelectedDepartment = id
                 });
             }
+        }
+        public ActionResult PersonnelDetails(int PersonnelId)
+        {            
+            return View(provider.GetPersonnelById(PersonnelId));
         }
     }
 }

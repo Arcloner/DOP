@@ -29,7 +29,7 @@ namespace DOP.Service.Data
                     {
                         foreach (DataRow dataRow in table.Rows)
                         {
-                            result.Add(new DepartmentDto { DepartmentId = (int)dataRow[0], Name = (string)dataRow[1], PhoneNumber = (string)dataRow[2], Adress = (string)dataRow[3], Details = (string)dataRow[4] });
+                            result.Add(new DepartmentDto { DepartmentId=(int)dataRow[0],Name=(string)dataRow[1],Adress=(string)dataRow[2],Details=(string)dataRow[3]});
                         }
                     }
                 }
@@ -55,7 +55,7 @@ namespace DOP.Service.Data
                     {
                         foreach (DataRow dataRow in table.Rows)
                         {
-                            result.Add(new PersonnelDto { PersonnelId = (int)dataRow[0], Name = (string)dataRow[1], LastName = (string)dataRow[2], MiddleName = (string)dataRow[3], DepartmentId = (int)dataRow[4], ContactId = (int)dataRow[5], Adress = (string)dataRow[6], FamilyState = (bool)dataRow[7], Photo = (string)dataRow[8] });
+                            result.Add(new PersonnelDto {PersonnelId=(int)dataRow[0],Name=(string)dataRow[1],LastName=(string)dataRow[2],MiddleName=(string)dataRow[3],DepartmentId=(int)dataRow[4],Adress=(string)dataRow[5],FamilyState=(bool)dataRow[6],Photo=(string)dataRow[7] });
                         }
                     }
                 }
@@ -144,7 +144,7 @@ namespace DOP.Service.Data
                     {
                         foreach (DataRow dataRow in table.Rows)
                         {
-                            result.Add(new PersonnelDto { PersonnelId = (int)dataRow[0], Name = (string)dataRow[1], LastName = (string)dataRow[2], MiddleName = (string)dataRow[3], DepartmentId = (int)dataRow[4], ContactId = (int)dataRow[5], Adress = (string)dataRow[6], FamilyState = (bool)dataRow[7], Photo = (string)dataRow[8] });
+                            result.Add(new PersonnelDto { PersonnelId = (int)dataRow[0], Name = (string)dataRow[1], LastName = (string)dataRow[2], MiddleName = (string)dataRow[3], DepartmentId = (int)dataRow[4], Adress = (string)dataRow[5], FamilyState = (bool)dataRow[6], Photo = (string)dataRow[7] });
                         }
                     }
                 }
@@ -176,7 +176,7 @@ namespace DOP.Service.Data
                     {
                         foreach (DataRow dataRow in table.Rows)
                         {
-                            result = new PersonnelDto { PersonnelId = (int)dataRow[0], Name = (string)dataRow[1], LastName = (string)dataRow[2], MiddleName = (string)dataRow[3], DepartmentId = (int)dataRow[4], ContactId = (int)dataRow[5], Adress = (string)dataRow[6], FamilyState = (bool)dataRow[7], Photo = (string)dataRow[8] };
+                            result = new PersonnelDto { PersonnelId = (int)dataRow[0], Name = (string)dataRow[1], LastName = (string)dataRow[2], MiddleName = (string)dataRow[3], DepartmentId = (int)dataRow[4], Adress = (string)dataRow[5], FamilyState = (bool)dataRow[6], Photo = (string)dataRow[7] };
                         }
                     }
                 }
