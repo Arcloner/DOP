@@ -1,4 +1,5 @@
 ﻿using DOP.Bussines.Providers;
+using DOP.Bussines.Search;
 using StructureMap.Configuration.DSL;
 
 namespace DOP.Bussines.Container
@@ -7,7 +8,8 @@ namespace DOP.Bussines.Container
     {
         public BussinesRegistry()
         {
-            For<IDOPProvider>().Use<DOPProvider>();
+            For<ISearchable>().Use<LevenshteinSearch>();
+            For<IDOPProvider>().Use<DOPProvider>();            
         }
     }
 }

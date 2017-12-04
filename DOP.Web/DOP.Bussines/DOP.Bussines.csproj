@@ -68,6 +68,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\DOPProvider.cs" />
     <Compile Include="Providers\IDOPProvider.cs" />
+    <Compile Include="Search\ISearchable.cs" />
+    <Compile Include="Search\LevenshteinSearch.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DOP.Common\DOP.Common.csproj">
@@ -82,6 +84,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="9lpdDVBY1WYfGkyn1Wx8yVjRQZw=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="imQzRgaKENi1kjX7x35FFoa0t1U=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IPersonnelDepartmentService">
       <properties>
@@ -112,10 +112,10 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IPersonnelDepartmentService" contract="DOPService.IPersonnelDepartmentService" bindingType="basicHttpBinding" address="http://localhost:63406/DOPService.svc" bindingConfiguration="BasicHttpBinding_IPersonnelDepartmentService">
+    <endpoint name="BasicHttpBinding_IPersonnelDepartmentService" contract="DOPService.IPersonnelDepartmentService" bindingType="basicHttpBinding" address="http://localhost:1111/DOPService.svc" bindingConfiguration="BasicHttpBinding_IPersonnelDepartmentService">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>http://localhost:63406/DOPService.svc</serializedValue>
+          <serializedValue>http://localhost:1111/DOPService.svc</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />

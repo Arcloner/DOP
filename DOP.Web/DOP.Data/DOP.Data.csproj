@@ -92,16 +92,16 @@
     <None Include="Service References\DOPService\DOP.Data.DOPService.PersonnelDto.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\DOPService\DOPService.xsd">
+    <None Include="Service References\DOPService\DOPService3.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\DOPService\DOPService1.xsd">
+    <None Include="Service References\DOPService\DOPService31.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\DOPService\DOPService2.xsd">
+    <None Include="Service References\DOPService\DOPService32.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Service References\DOPService\PersonnelDepartmentService.wsdl" />
+    <None Include="Service References\DOPService\PersonnelDepartmentService1.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DOP.Common\DOP.Common.csproj">
@@ -111,9 +111,6 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\DOPService\" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Service References\DOPService\DOPService.disco" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\DOPService\configuration91.svcinfo" />
@@ -126,6 +123,9 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\DOPService\DOPService1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

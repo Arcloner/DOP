@@ -9,7 +9,6 @@ namespace DOP.Web.ViewModels
     public class StartPageViewModel
     {
         public List<Department> Departments { get; set; }
-        public List<Personnel> Personnel { get; set; }
-        public int? SelectedDepartment { get; set; }
+        public List<Personnel> Personnel { get; set; }        
     }
 }

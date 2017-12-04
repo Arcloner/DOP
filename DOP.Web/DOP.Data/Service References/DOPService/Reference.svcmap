@@ -21,14 +21,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:63406/DOPService.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost:1111/DOPService.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="DOPService.xsd" MetadataType="Schema" ID="13ac513a-8f95-43b6-a419-acc1998560dc" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd1" />
-    <MetadataFile FileName="DOPService1.xsd" MetadataType="Schema" ID="14003de7-6e9b-4a10-afd7-5aad76a12351" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd2" />
-    <MetadataFile FileName="DOPService.disco" MetadataType="Disco" ID="2b3cc730-3e3b-4593-b55e-e42aefbe323a" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?disco" />
-    <MetadataFile FileName="PersonnelDepartmentService.wsdl" MetadataType="Wsdl" ID="dfac3d46-52b7-4673-ab33-111cf69fa551" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?wsdl" />
-    <MetadataFile FileName="DOPService2.xsd" MetadataType="Schema" ID="2960cb23-85a2-4598-a6cc-6852a40d4857" SourceId="1" SourceUrl="http://localhost:63406/DOPService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DOPService1.disco" MetadataType="Disco" ID="dc321cce-cdd8-4f7b-9bfa-91864323bca8" SourceId="1" SourceUrl="http://localhost:1111/DOPService.svc?disco" />
+    <MetadataFile FileName="DOPService3.xsd" MetadataType="Schema" ID="72bd5ec4-78c0-408d-b4fa-05dcad9f9c61" SourceId="1" SourceUrl="http://localhost:1111/DOPService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PersonnelDepartmentService1.wsdl" MetadataType="Wsdl" ID="62ae04db-c33a-4e2b-a1b1-4f8ab87d77e1" SourceId="1" SourceUrl="http://localhost:1111/DOPService.svc?wsdl" />
+    <MetadataFile FileName="DOPService31.xsd" MetadataType="Schema" ID="5e8eb6b4-92f8-4add-90d6-0d621b253b38" SourceId="1" SourceUrl="http://localhost:1111/DOPService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DOPService32.xsd" MetadataType="Schema" ID="6633576d-b705-4dbe-bfe8-63dfa30e74c8" SourceId="1" SourceUrl="http://localhost:1111/DOPService.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

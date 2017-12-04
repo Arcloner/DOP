@@ -17,20 +17,20 @@ namespace DOP.Web.Controllers
         {
             if (id != null)
             {
+                ViewBag.SelectedId = id;
                 return View(new StartPageViewModel()
                 {
                     Departments = provider.GetAllDepartments(),
-                    Personnel = provider.GetPersonnelByDepartmentId((int)id),
-                    SelectedDepartment = id
+                    Personnel = provider.GetPersonnelByDepartmentId((int)id),                    
                 });
             }
             else
             {
+                ViewBag.SelectedId = id;
                 return View(new StartPageViewModel()
                 {
                     Departments = provider.GetAllDepartments(),
-                    Personnel = provider.GetAllPersonnel(),
-                    SelectedDepartment = id
+                    Personnel = provider.GetAllPersonnel(),                    
                 });
             }
         }

@@ -1,4 +1,5 @@
-﻿using DOP.Common.Models;
+﻿using DOP.Bussines.Search;
+using DOP.Common.Models;
 using DOP.Data.Services;
 using System;
 using System.Collections.Generic;
@@ -10,11 +11,11 @@ namespace DOP.Bussines.Providers
 {
     public class DOPProvider : IDOPProvider
     {
-        private IDOPService service;
+        private IDOPService service;        
 
         public DOPProvider(IDOPService service)
         {
-            this.service = service;
+            this.service = service;            
         }
         public List<Department> GetAllDepartments()
         {
@@ -45,5 +46,6 @@ namespace DOP.Bussines.Providers
         {
             return service.GetPersonnelById(id);
         }
+       
     }
 }

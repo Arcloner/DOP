@@ -10,6 +10,6 @@ namespace DOP.Bussines.Providers
         List<Department> GetAllDepartments();
         Department GetDepartmentByPersonnelId(int id);
         Department GetDepartmentById(int id);
-        Personnel GetPersonnelById(int id);
+        Personnel GetPersonnelById(int id);        
     }
 }
