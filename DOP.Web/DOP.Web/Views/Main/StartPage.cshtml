@@ -8,11 +8,16 @@
             foreach (var item in Model.Departments)
             {
                 if (ViewBag.SelectedId == item.DepartmentId)
-                {<a href='@Url.Action("StartPage", "Main", new { id = item.DepartmentId })' ; class="list-group-item active">@item.Name</a> }
+                {
+                    <a href='@Url.Action("StartPage", "Main", new { id = item.DepartmentId })' ; class="list-group-item active">@item.Name</a> 
+                }
                 else
-                {<a href='@Url.Action("StartPage", "Main", new { id = item.DepartmentId })' ; class="list-group-item">@item.Name</a> }
+                {
+                    <a href='@Url.Action("StartPage", "Main", new { id = item.DepartmentId })' ; class="list-group-item">@item.Name</a> 
+                }
             }
         }
+        <a href='@Url.Action("SearchPage", "Search")' ; class="list-group-item">Search page</a>
     </div>
 </div>
 @{Html.RenderPartial("~/Views/PartialViews/PersonnelPartialView.cshtml", Model.Personnel);}

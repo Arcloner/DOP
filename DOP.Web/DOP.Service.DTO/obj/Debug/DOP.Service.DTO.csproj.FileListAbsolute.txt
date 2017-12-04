@@ -1,5 +1,4 @@
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.DTO\bin\Debug\DOP.Service.DTO.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.DTO\bin\Debug\DOP.Service.DTO.pdb
-B:\VS_Projects\DOP\DOP.Web\DOP.Service.DTO\obj\Debug\DOP.Service.DTO.csprojResolveAssemblyReference.cache
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.DTO\obj\Debug\DOP.Service.DTO.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Service.DTO\obj\Debug\DOP.Service.DTO.pdb

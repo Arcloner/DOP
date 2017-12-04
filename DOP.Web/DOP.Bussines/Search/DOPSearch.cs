@@ -1,28 +1,14 @@
-﻿using System;
+﻿using DOP.Common.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DOP.Common.Models;
 
 namespace DOP.Bussines.Search
 {
-    public class LevenshteinSearch : ISearchable
-    {        
-        public List<Personnel> SearchPersonnels(string LNM,List<Personnel> searchList)
-        {
-            int OptimalDistance = 10;
-            List<Personnel> result = new List<Personnel>();                        
-            foreach (var pers in searchList)
-            {                
-                if (GetDistance(pers.Name + pers.LastName + pers.MiddleName, LNM) < OptimalDistance)
-                {
-                    result.Add(pers);
-                }
-            }
-            return result;
-        }
-
+    public class DOPSearch:IDOPSearch
+    {
         public int GetDistance(string string1, string string2)
         {
             if (string1 == null) throw new ArgumentNullException("string1");
@@ -47,5 +33,18 @@ namespace DOP.Bussines.Search
             return m[string1.Length, string2.Length];
         }
 
+        public List<Personnel> SearchPersonnels(string LNM, List<Personnel> searchList)
+        {
+            int OptimalDistance = 10;
+            List<Personnel> result = new List<Personnel>();
+            foreach (var pers in searchList)
+            {
+                if (GetDistance(pers.Name + pers.LastName + pers.MiddleName, LNM) < OptimalDistance)
+                {
+                    result.Add(pers);
+                }
+            }
+            return result;
+        }
     }
 }

@@ -1,9 +1,6 @@
+B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\DOP.Data.dll.config
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\DOP.Data.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\DOP.Data.pdb
-B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.csprojResolveAssemblyReference.cache
-B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.dll
-B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.pdb
-B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\DOP.Data.dll.config
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\DOP.Common.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\Microsoft.Practices.ServiceLocation.dll
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
@@ -19,3 +16,6 @@ B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\StructureMap.xml
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\StructureMap.Net4.pdb
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\StructureMap.Web.pdb
 B:\VS_Projects\DOP\DOP.Web\DOP.Data\bin\Debug\StructureMap.Web.xml
+B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.csprojResolveAssemblyReference.cache
+B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.dll
+B:\VS_Projects\DOP\DOP.Web\DOP.Data\obj\Debug\DOP.Data.pdb

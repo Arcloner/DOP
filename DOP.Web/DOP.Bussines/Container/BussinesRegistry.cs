@@ -8,7 +8,7 @@ namespace DOP.Bussines.Container
     {
         public BussinesRegistry()
         {
-            For<ISearchable>().Use<LevenshteinSearch>();
+            For<IDOPSearch>().Use<DOPSearch>();                  
             For<IDOPProvider>().Use<DOPProvider>();            
         }
     }

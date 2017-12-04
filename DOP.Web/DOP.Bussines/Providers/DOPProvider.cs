@@ -1,5 +1,4 @@
-﻿using DOP.Bussines.Search;
-using DOP.Common.Models;
+﻿using DOP.Common.Models;
 using DOP.Data.Services;
 using System;
 using System.Collections.Generic;
